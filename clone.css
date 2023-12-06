@@ -1,0 +1,181 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar css */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(3, 3, 67, 0.665);
+    color: white;
+    width: 100vw;
+    height: 56px;
+    font-size: 13px;
+}
+img {
+    width: 124px;
+    aspect-ratio: 1;
+    height: 46px;
+    position: absolute;
+    left: 14px;
+    top: 7px;
+    border-radius: 4px;
+    background-image:rgba(3, 3, 67, 0.665);
+}
+
+ul .nav_bar::before {
+    content: "|";
+    padding-right: 13px;
+    font-weight: bolder;
+}
+ul li {
+    list-style-type:none;
+    padding-right: 8px;
+}
+ul li:hover {
+    color: aqua;
+    text-decoration: underline;
+    /* border: 1px solid aqua; */
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+    width: 100vw;
+    aspect-ratio: 1;
+}
+body {
+    /* background-color: rgb(28, 26, 26); */
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100vw;
+}
+/* body css */
+.first_section {
+    /* background-color: rgb(127, 159, 255); */
+    background-color: rgb(33, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 426px;
+}
+/* first-container */
+.heading {
+    /* background-color: blue; */
+    padding: 10px;
+}
+.heading h2 {
+    text-align: center;
+    margin-top: 34px;
+}
+/* second-container */
+.second_section {
+    width: 100vw;
+    height: 85px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+.second_section .box {
+    width:284px;
+    height: 83px;
+    color: aquamarine;
+    background-color:rgb(16, 90, 16);
+    margin-left: 24px;
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 14px;
+}
+.second_section .box:hover{
+    background-color: rgba(162, 222, 101, 0.468);
+    
+}
+.box h2{
+    font-size: 25px;
+}
+.box h3{
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+/* Third-container */
+.third_section {
+    /* background-color: chartreuse; */
+    height: 24px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.div_options {
+   /* background-color: aquamarine; */
+    margin-left: 24px;
+    font-size: 17px;
+}
+
+/* #div_second {
+    margin-left: 24px;
+} */
+.div_options a {
+    text-decoration: none;
+    /* padding: px; */
+    color: rgba(5, 136, 5, 0.629);
+}
+.div_options a:hover {
+    text-decoration: underline;
+    color: chartreuse;
+}
+.list_pipe::before{
+    content: "|";
+    padding-right: 3px;
+    font-weight: bolder;
+}
+
+/* Fourth_container */
+
+/* .last_div h2::after {
+    content: url('release schedule');
+    color: green;
+} */
+
+
+/* footer section */
+footer {
+    background-color: rgb(65 65 147);
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 1px 30px;
+    color: white;
+}
+footer p {
+    padding-top: 10px;
+}
+#div_footer {
+    padding-top: 15px;
+}
+ #div_footer a {
+    text-decoration: none;
+    color: rgb(74, 193, 153);
+}
+ #div_footer a:hover{
+    color: chocolate;
+}
+footer div .footer_section::before {
+    content: "|";
+    padding-right: 3px;
+    font-weight: bolder;
+}
